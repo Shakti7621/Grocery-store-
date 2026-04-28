@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+/** NAVBAR **/
+.navbar {
+  height: 80px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/** LOGO **/
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(grocery\ logo2.jpeg);
+  background-size: cover;
+  height: 60px;
+  width: 70px;
+}
+
+/** ADDRESS **/
+.nav-address {
+  font-size: 12px;
+}
+
+.add-second {
+  font-weight: bold;
+}
+
+/* SEARCH */
+.nav-search {
+  display: flex;
+  width: 600px;
+  height: 40px;
+}
+
+.search-select {
+  width: 50px;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.search-icon {
+  width: 45px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** SIGN IN **/
+.bold {
+  font-weight: bold;
+}
+
+/* CART */
+.nav-cart {
+  font-weight: bold;
+
+}
+
+/** panel **/
+
+/** NAVBAR **/
+.panel {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/** LEFT SECTION **/
+.panel-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/** NAV ITEMS **/
+.panel-item {
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.panel-item:hover {
+    border: 1px solid white;
+}
+
+/** MENU ICON STYLE **/
+.menu {
+    font-weight: bold;
+}
+
+/** RIGHT SECTION **/
+.panel-right {
+    display: flex;
+    align-items: center;
+}
+
+/** HIGHLIGHT TEXT **/
+.panel-highlight {
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.panel-highlight:hover {
+    border: 1px solid white;
+}
+
+/** shoping section **/
+
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 15px;
+}
+
+/** title **/
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/** 4 row **/
+.hero {
+    display: flex ;
+    justify-content: space-evenly; 
+    gap: 12px;
+}
+
+/** card **/
+.card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+/** image **/
+.card img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+/** text **/
+.card p {
+    font-size: 13px;
+    margin: 0;
+}
