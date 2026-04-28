@@ -21,7 +21,7 @@
 }
 
 .logo {
-  background-image: url(grocery\ logo2.jpeg);
+  background-image: url("grocery logo2.jpeg");
   background-size: cover;
   height: 60px;
   width: 70px;
